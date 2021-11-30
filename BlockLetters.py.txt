@@ -1,0 +1,11 @@
+# GIST: https://gist.github.com/codecademydev/c9cd4c5aff8b66127eb09a8e04a6e4f9
+# Isaac Ampomah
+# I love working out
+
+print('IIIII      A  ')
+print('  I       A A')
+print('  I      A   A')
+print('  I      AAAAA')
+print('  I      A   A')
+print('  I      A   A')
+print('IIIII    A   A')

@@ -1,0 +1,31 @@
+# GIST: https://gist.github.com/488506c0cc8a78b241448843db667441
+weight  = 41.5 
+
+# Ground Shipping
+if weight <= 2:
+  ground_cost = 20 + weight * 1.50
+elif weight > 2 and weight <= 6:
+  ground_cost = 20 + weight * 3.00
+elif weight > 6 and weight <= 10:
+  ground_cost = 20 + weight * 4.00
+else:
+  ground_cost = 20 + weight * 4.75  
+
+print("Ground Shipping Cost: $",ground_cost)
+
+# Ground Shipping Premium
+
+premium_ground_cost = 125.00
+print("Ground Shipping Premium: $", premium_ground_cost)
+
+# Drone Shipping
+if weight <= 2:
+  Drone_cost = weight * 4.50
+elif weight > 2 and weight <= 6:
+  Drone_cost = weight * 9.00
+elif weight > 6 and weight <= 10:
+  Drone_cost = weight * 12.00
+else:
+  Drone_cost = weight * 14.75  
+
+print("Drone Shipping Cost: $", Drone_cost)
